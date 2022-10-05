@@ -12,11 +12,11 @@ const AllGun = ({ countIncrease }) => {
       .then((data) => setGuns(data));
   }, []);
   return (
-    <div className="mt-5">
+    <div className="my-5">
       <h1 className="text-center text-4xl font-bold my-5 mx-10 md:mx-0">
         Welcome To Kopa Samsu Store
       </h1>
-      <p className="mx-20 text-center text-xl font-normal">
+      <p className="mx-5 text-center text-normal font-normal lg:mx-20 lg:text-xl">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
         quisquam quasi aliquid reprehenderit corporis, porro saepe nisi eaque,
         obcaecati, magni distinctio! Animi porro est, exercitationem cumque
